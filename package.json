@@ -1,0 +1,25 @@
+{
+  "name": "chat_app-nodejs",
+  "version": "1.0.0",
+  "description": "Chat app",
+  "main": "index.js",
+  "scripts": {
+    "devStart" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lathief/Chat-_App-NodeJS.git"
+  },
+  "author": "latif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lathief/Chat-_App-NodeJS/issues"
+  },
+  "homepage": "https://github.com/lathief/Chat-_App-NodeJS#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
